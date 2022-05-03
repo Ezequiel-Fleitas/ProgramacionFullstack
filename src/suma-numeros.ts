@@ -9,6 +9,6 @@ if (primerNumero > segundoNumero) {
   segundoNumero = aux;
 }
 for (let i: number = primerNumero; i <= segundoNumero; i++) {
-  suma = suma + i;
+  suma += i;
   console.log("resultado:", suma);
 }
