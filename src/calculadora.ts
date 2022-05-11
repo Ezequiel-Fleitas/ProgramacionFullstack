@@ -40,7 +40,9 @@ let number2: number = Number(prompt("ingrese el segundo numero"));
 
 //variable que entrara al switch para elegir la funcion que se desea llamar
 let opcion: number = Number(
-  prompt("Ingrese 1 para sumar, 2 para restar u otra tecla para cancelar")
+  prompt(
+    "Ingrese 1 para sumar\nIngrese 2 para restar\nIngrese 3 para dividir\nIngrese 4 para multiplicar\nIngrese otra tecla para cancelar"
+  )
 );
 
 //variable para almacenar el retorno de las funciones aritmeticas
